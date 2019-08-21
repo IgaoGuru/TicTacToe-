@@ -4,6 +4,7 @@ from time import sleep
 from AI import AI_Jack_the_random
 turn = 0
 win = False
+ai_list = [AI_Jack_the_random()]
 
 def print_board(board:list):
       print("_{}_|_{}_|_{}_\n" 
@@ -72,11 +73,19 @@ def check_win(board, square):
       else:
           return False
 
-ai = AI_Jack_the_random()
-
 #----------------------[GAME INIT]-------------------------
 
 print("Welcome to tic tac toe!")
+sleep(1)
+
+print("choose an A.I:")
+for ai_idx, ai in enumerate(ai_list):
+    print("\t- {} | index:{}\n".format(ai.name, ai_idx))
+ai_index = int(input("type index here:"))
+while ai_index not in range(len(ai_list)):
+    print("invalid input!")
+    ai_index = int(input("type index here:"))
+ai = ai_list[ai_index]
 
 play_first = (input("Do you wanna play first? [Y/n]")).lower()
 while play_first != "y" and play_first != "n":
