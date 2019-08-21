@@ -1,6 +1,7 @@
 board = ["_"] * 9
-from random import randint
+
 from time import sleep
+from AI import AI_Jack_the_random
 turn = 0
 win = False
 
@@ -10,7 +11,7 @@ def print_board(board:list):
       "_{}_|_{}_|_{}_\n".format(board[0], board[1], board[2], board[3], board[4], board[5],
                          board[6], board[7], board[8]))
 
-def play(board, square:int, marker:str):
+def play(board, square:int, marker:str, ai):
       if square >= 8 and square < 0:
             print("user input invalid")
             return False
@@ -23,6 +24,7 @@ def play(board, square:int, marker:str):
               print("win!")
             elif win == True and board[square] == "C":
                 print("The computer wins :(")
+                print("Computer says: {}".format(ai.winning_phrase))
 
 def check_win(board, square):
       #checks column 0
@@ -70,6 +72,7 @@ def check_win(board, square):
       else:
           return False
 
+ai = AI_Jack_the_random()
 
 #----------------------[GAME INIT]-------------------------
 
@@ -91,14 +94,12 @@ while win == False:
         while (playermove > 8 or playermove < 0) or board[playermove] != "_":
             print("user input invalid")
             playermove = int(input("Choose a space[0-8]:"))
-        play(board, playermove, "H")
+        play(board, playermove, "H", ai)
     else:
         turn += 1
         print("The computer plays now!")
         sleep(1)
-        pcmove = randint(0, 8)
-        while board[pcmove] != "_":
-            pcmove = randint(0, 8)
-        play(board, pcmove, "C")
+        pcmove = ai.get_play(board)
+        play(board, pcmove, "C", ai)
 
 
