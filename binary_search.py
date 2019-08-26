@@ -27,20 +27,23 @@ def find_element3(elements:list, element:int):
     else:
         return False
 
-#cuts the list in half 25 times to find(or not) the number
+#cuts the list in half until there is only one element
 def find_element4(elements:list, element:int):
+    stop = False
+
+    if len(elements) == 0:
+        return False
     if element > elements[-1] or element < elements[0]:
         return False
-    counter = 0
-    while True:
-        counter += 1
-        half = int(len(elements) / 2)
 
+    while stop == False:
+        half = int(len(elements) / 2)
         if elements[half] == element:
             return True
         elif elements[half] >= (element - 1) and elements[half] <= (element + 1):
             return True
-        elif counter == 25:
+        elif len(elements) == 1:
+            stop = True
             return False
         elif elements[half] > element:
             elements = elements[:half]
