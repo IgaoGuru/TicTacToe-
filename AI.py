@@ -478,3 +478,9 @@ class AI_Bob_the_winner(AI):
                         while board[choice] != "_":
                             choice = randint(0,8)
                         return choice
+
+
+
+
+
+
