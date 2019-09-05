@@ -27,11 +27,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/small tictactoe.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+            <state relative-caret-position="236">
+              <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
               <folding>
+                <element signature="e#134#195#0" />
+                <element signature="e#240#353#0" />
                 <element signature="e#233#356#0" />
-                <element signature="e#402#824#0" />
+                <element signature="e#615#1122#0" />
+                <element signature="e#720#1048#0" />
+                <element signature="e#884#1097#0" />
+                <element signature="e#758#823#0" />
               </folding>
             </state>
           </provider>
@@ -40,13 +45,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="529">
               <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
               <folding>
                 <element signature="e#17#201#0" />
                 <element signature="e#248#598#0" />
                 <element signature="e#651#882#0" />
-                <element signature="e#919#1074#0" />
                 <element signature="e#1113#1342#0" />
                 <element signature="e#1401#1583#0" />
                 <element signature="e#1634#1848#0" />
@@ -402,13 +406,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="529">
           <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
           <folding>
             <element signature="e#17#201#0" />
             <element signature="e#248#598#0" />
             <element signature="e#651#882#0" />
-            <element signature="e#919#1074#0" />
             <element signature="e#1113#1342#0" />
             <element signature="e#1401#1583#0" />
             <element signature="e#1634#1848#0" />
@@ -420,11 +423,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/small tictactoe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+        <state relative-caret-position="236">
+          <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
           <folding>
+            <element signature="e#134#195#0" />
+            <element signature="e#240#353#0" />
             <element signature="e#233#356#0" />
-            <element signature="e#402#824#0" />
+            <element signature="e#615#1122#0" />
+            <element signature="e#720#1048#0" />
+            <element signature="e#884#1097#0" />
+            <element signature="e#758#823#0" />
           </folding>
         </state>
       </provider>
