@@ -1,2 +1,5 @@
-a= "5\n 8\n  9\n  7\n"
-print(a)
+import numpy as np
+
+numbers = [1, 2, 2, 10000, 2, 25, 19, 100000]
+
+print(np.argmax(numbers))

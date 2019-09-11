@@ -1,3 +1,5 @@
+import numpy as np
+
 class GameTree():
 
     board = None
@@ -58,6 +60,7 @@ def print_tree(tree, tabs = ""): #-> (just prints)
         print_tree(subtree, tabs)
     return
 
+
 def switch_marker(marker):
     if marker == "C":
         return "H"
@@ -72,9 +75,63 @@ def winner(board):
         return board[2]
     return ""
 
-gametree = generate_game_tree("H")
 
-print_tree(gametree)
+def minmax(gametree, marker):
+    maximize = True
+    if gametree.board[gametree.played_square] == marker:
+        maximize = False
 
-num_nodes = gametree.count_nodes()
-print(num_nodes)
+    if len(gametree.subtrees) == 0:
+        leaf_value = get_board_value(gametree, marker)
+        return leaf_value, None
+
+    subtree_values = []
+
+    for subtree in gametree.subtrees:
+        sub_value, _ = minmax(subtree, marker)
+        subtree_values.append(sub_value)
+
+    if maximize:
+        return np.max(subtree_values), gametree.subtrees[np.argmax(subtree_values)].played_square
+    else:
+        return np.min(subtree_values), gametree.subtrees[np.argmin(subtree_values)].played_square
+
+
+def evaluate_leafs(gametree, marker):
+
+    if len(gametree.subtrees) == 0:
+        leaf_value = get_board_value(gametree, marker)
+        return leaf_value
+    subtree_values = []
+    for subtree in gametree.subtrees:
+        subtree_value = evaluate_leafs(subtree, marker)
+        if subtree_value != None:
+            if type(subtree_value) == list:
+                for i in range(len(subtree_value)):
+                    subtree_values.append(subtree_value[i])
+            elif type(subtree_value) == int:
+                subtree_values.append(subtree_value)
+    return subtree_values
+
+
+def get_board_value(gametree, marker):
+    if gametree.winner == marker:
+        return 1
+    elif gametree.winner == switch_marker(marker):
+        return -1
+    return 0
+
+
+
+
+
+
+
+#testing pad
+gametree = generate_game_tree("C")
+
+print_tree(gametree.subtrees[3].subtrees[2])
+
+ai_play = minmax(gametree.subtrees[3].subtrees[2], "C")
+
+print(ai_play)
