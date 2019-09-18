@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/AI.py" line="497" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9a038075-6b2f-48b8-bfbe-a7b16f75b3b6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,33 +16,66 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="113" column="40" selection-start-line="113" selection-start-column="40" selection-end-line="113" selection-end-column="40" />
+            <state relative-caret-position="195">
+              <caret line="110" selection-start-line="110" selection-end-line="110" />
               <folding>
-                <element signature="e#216#414#0" />
-                <element signature="e#467#1006#0" />
-                <element signature="e#1044#3096#0" />
+                <element signature="e#265#463#0" />
+                <element signature="e#516#1055#0" />
+                <element signature="e#1093#3145#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AI.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="509" selection-start-line="509" selection-end-line="509" />
+              <folding>
+                <element signature="e#60#340#0" />
+                <element signature="e#129#227#0" />
+                <element signature="e#260#271#0" />
+                <element signature="e#329#340#0" />
+                <element signature="e#378#710#0" />
+                <element signature="e#498#537#0" />
+                <element signature="e#595#710#0" />
+                <element signature="e#745#23280#0" />
+                <element signature="e#1069#23280#0" />
+                <element signature="e#23435#23474#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/maxthemin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="60" column="33" lean-forward="true" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+              <folding>
+                <element signature="e#268#425#0" />
+                <element signature="e#2151#4562#0" />
+                <element signature="e#2218#4549#0" />
+                <element signature="e#4566#5219#0" />
+                <element signature="e#4184#4249#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/small tictactoe.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+            <state relative-caret-position="424">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
               <folding>
-                <element signature="e#23#405#0" />
-                <element signature="e#248#405#0" />
-                <element signature="e#444#567#0" />
-                <element signature="e#615#1162#0" />
-                <element signature="e#1220#1368#0" />
-                <element signature="e#1401#1466#0" />
-                <element signature="e#1492#1645#0" />
-                <element signature="e#1703#2298#0" />
-                <element signature="e#1761#2305#0" />
-                <element signature="e#2351#2479#0" />
+                <element signature="e#43#425#0" />
+                <element signature="e#464#587#0" />
+                <element signature="e#635#1182#0" />
+                <element signature="e#1240#1388#0" />
+                <element signature="e#1422#1487#0" />
+                <element signature="e#1513#1666#0" />
               </folding>
             </state>
           </provider>
@@ -48,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="-210">
               <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
               <folding>
                 <element signature="e#17#201#0" />
@@ -68,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trash.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="45" lean-forward="true" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+            <state relative-caret-position="180">
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -89,6 +125,9 @@
       <find>wwin</find>
       <find>player_start</find>
       <find>True</find>
+      <find>played</find>
+      <find>&quot;&quot;</find>
+      <find>playermove</find>
     </findStrings>
     <replaceStrings>
       <replace>self.wwin</replace>
@@ -104,19 +143,20 @@
       <list>
         <option value="$PROJECT_DIR$/ai.py" />
         <option value="$PROJECT_DIR$/Ai.py" />
-        <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/binary_search.py" />
-        <option value="$PROJECT_DIR$/AI.py" />
         <option value="$PROJECT_DIR$/tree.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/trash.py" />
         <option value="$PROJECT_DIR$/small tictactoe.py" />
+        <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/AI.py" />
+        <option value="$PROJECT_DIR$/trash.py" />
+        <option value="$PROJECT_DIR$/maxthemin.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="773" />
+    <option name="y" value="-12" />
     <option name="width" value="1400" />
     <option name="height" value="970" />
   </component>
@@ -125,6 +165,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,7 +177,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.small tictactoe">
+  <component name="RunManager" selected="Python.Main">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TicTacToe-" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -286,11 +326,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Main" />
         <item itemvalue="Python.small tictactoe" />
         <item itemvalue="Python.trash" />
         <item itemvalue="Python.tree" />
         <item itemvalue="Python.binary_search" />
-        <item itemvalue="Python.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -307,20 +347,28 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13396375" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.27070063" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31243002" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42553192" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5733483" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38521835" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32922733" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32922733" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32922733" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -332,6 +380,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AI.py</url>
+          <line>509</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -341,18 +396,20 @@
       </default-breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>board == [&quot;C&quot;,&quot;H&quot;,&quot;_&quot;,&quot;C&quot;,&quot;C&quot;,&quot;H&quot;,&quot;H&quot;,&quot;_&quot;,&quot;_&quot;]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_bundle/pydevd_breakpoints.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="108" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="1146" selection-start-line="1146" selection-end-line="1146" />
         </state>
       </provider>
     </entry>
@@ -364,20 +421,6 @@
       </provider>
     </entry>
     <entry file="file://E:/Program Files (tera)/anaconda/envs/tick tack toe/Lib/codecs.py" />
-    <entry file="file://$PROJECT_DIR$/AI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="481" selection-start-line="481" selection-end-line="481" />
-          <folding>
-            <element signature="e#44#224#0" />
-            <element signature="e#94#155#0" />
-            <element signature="e#262#594#0" />
-            <element signature="e#629#23147#0" />
-            <element signature="e#15904#19502#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/binary_search.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -401,6 +444,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://E:/Program Files (tera)/anaconda/envs/tictactoe/Lib/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="1146" selection-start-line="1146" selection-end-line="1146" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://E:/Program Files (tera)/anaconda/envs/tictactoe/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -410,26 +467,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="113" column="40" selection-start-line="113" selection-start-column="40" selection-end-line="113" selection-end-column="40" />
+        <state relative-caret-position="195">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
           <folding>
-            <element signature="e#216#414#0" />
-            <element signature="e#467#1006#0" />
-            <element signature="e#1044#3096#0" />
+            <element signature="e#265#463#0" />
+            <element signature="e#516#1055#0" />
+            <element signature="e#1093#3145#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="509" selection-start-line="509" selection-end-line="509" />
+          <folding>
+            <element signature="e#60#340#0" />
+            <element signature="e#129#227#0" />
+            <element signature="e#260#271#0" />
+            <element signature="e#329#340#0" />
+            <element signature="e#378#710#0" />
+            <element signature="e#498#537#0" />
+            <element signature="e#595#710#0" />
+            <element signature="e#745#23280#0" />
+            <element signature="e#1069#23280#0" />
+            <element signature="e#23435#23474#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trash.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="45" lean-forward="true" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        <state relative-caret-position="180">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/small tictactoe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="e#43#425#0" />
+            <element signature="e#464#587#0" />
+            <element signature="e#635#1182#0" />
+            <element signature="e#1240#1388#0" />
+            <element signature="e#1422#1487#0" />
+            <element signature="e#1513#1666#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="-210">
           <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
           <folding>
             <element signature="e#17#201#0" />
@@ -445,28 +536,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/Program Files (tera)/anaconda/envs/tictactoe/Lib/site-packages/numpy/core/fromnumeric.py">
+    <entry file="file://$PROJECT_DIR$/maxthemin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/small tictactoe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+        <state relative-caret-position="110">
+          <caret line="60" column="33" lean-forward="true" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
           <folding>
-            <element signature="e#23#405#0" />
-            <element signature="e#248#405#0" />
-            <element signature="e#444#567#0" />
-            <element signature="e#615#1162#0" />
-            <element signature="e#1220#1368#0" />
-            <element signature="e#1401#1466#0" />
-            <element signature="e#1492#1645#0" />
-            <element signature="e#1703#2298#0" />
-            <element signature="e#1761#2305#0" />
-            <element signature="e#2351#2479#0" />
+            <element signature="e#268#425#0" />
+            <element signature="e#2151#4562#0" />
+            <element signature="e#2218#4549#0" />
+            <element signature="e#4566#5219#0" />
+            <element signature="e#4184#4249#0" />
           </folding>
         </state>
       </provider>

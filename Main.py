@@ -3,9 +3,11 @@ board = ["_"] * 9
 from time import sleep
 from AI import AI_Jack_the_random
 from AI import AI_Bob_the_winner
+from AI import AI_Max_the_Min
+
 turn = 0
 win = 0
-ai_list = [AI_Jack_the_random(), AI_Bob_the_winner()]
+ai_list = [AI_Jack_the_random(), AI_Bob_the_winner(), AI_Max_the_Min()]
 
 def print_board(board:list):
       print("_{}_|_{}_|_{}_\n" 
@@ -102,6 +104,9 @@ while play_first != "y" and play_first != "n":
 
 if play_first == "n":
     turn = 1
+
+ai.play_first = play_first
+ai.prepare()
 
 while win == 0:
     if (turn % 2) == 0:

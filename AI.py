@@ -1,11 +1,15 @@
 from random import randint
-
+import maxthemin
 
 class AI:
 
-    def __init__(self, name, winning_phrase):
+    def __init__(self, name, winning_phrase, play_first = None):
         self.name = name
         self.winning_phrase = winning_phrase
+        self.play_first = play_first
+
+    def prepare(self):
+        return None
 
     def get_play(self, board, turn, last_play):
         return None
@@ -28,7 +32,8 @@ class AI_Bob_the_winner(AI):
     middleh1 = False
     playerstart = False
     
-    def __init__(self, name = "bob_the_random", winning_phrase = "I literally just followed instructions to get here!"):
+    def __init__(self, name = "bob_the_random",
+                 winning_phrase = "I literally just followed instructions to get here!"):
         AI.__init__(self, name, winning_phrase)
 
     def get_play(self, board, turn, last_play):
@@ -479,8 +484,37 @@ class AI_Bob_the_winner(AI):
                             choice = randint(0,8)
                         return choice
 
+class AI_Max_the_Min(AI):
+    gametree = None
+
+    def __init__(self, name = "max_the_min", winning_phrase = "Now I actually know what I did!"):
+        AI.__init__(self, name, winning_phrase)
+
+    def prepare(self):
+        if self.play_first == "y":
+            self.gametree = maxthemin.generate_game_tree("H")
+        else:
+            self.gametree = maxthemin.generate_game_tree("C")
 
 
+    def get_play(self, board, turn, last_play):
+
+        for child in self.gametree.subtrees:
+            if board == child.board:
+                self.gametree = child
+                break
 
 
+        _ ,pcmove = maxthemin.minmax(self.gametree, "C")
+
+        child_index = -1
+        for square_idx, square in enumerate(self.gametree.board):
+            if square == "_":
+                child_index += 1
+            if square_idx == pcmove:
+                break
+
+        self.gametree = self.gametree.subtrees[child_index]
+
+        return pcmove
 
