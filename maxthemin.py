@@ -1,4 +1,5 @@
 import numpy as np
+from random import randint
 
 class GameTree():
 
@@ -27,7 +28,8 @@ def minmax(gametree, marker):
         maximize = False
 
     if gametree.board == ["_"] * 9:
-        return 1, 0
+        corners = [0, 2, 6, 8]
+        return 1, corners[randint(0, 3)]
 
     if len(gametree.subtrees) == 0:
         leaf_value = get_board_value(gametree, marker)

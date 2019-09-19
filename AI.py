@@ -32,7 +32,7 @@ class AI_Bob_the_winner(AI):
     middleh1 = False
     playerstart = False
     
-    def __init__(self, name = "bob_the_random",
+    def __init__(self, name = "bob_the_winner",
                  winning_phrase = "I literally just followed instructions to get here!"):
         AI.__init__(self, name, winning_phrase)
 
