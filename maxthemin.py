@@ -163,9 +163,9 @@ def switch_marker(marker):
 
 
 def get_board_value(gametree, marker):
-    if gametree.winner == marker:
+    if winner(gametree.board) == marker:
         return 1
-    elif gametree.winner == switch_marker(marker):
+    elif winner(gametree.board) == switch_marker(marker):
         return -1
     return 0
 
