@@ -26,6 +26,7 @@ class AI_Jack_the_random(AI):
             pcmove = randint(0, 8)
         return pcmove
 
+
 class AI_Bob_the_winner(AI):
     # var definition
     wwin = 0

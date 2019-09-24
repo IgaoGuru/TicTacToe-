@@ -7,6 +7,8 @@ class GameTree():
     played_square = None
     subtrees = []
     winner = ""
+    value = None
+    optimal_play = None
 
     def __init__(self, board, played_square):
         self.board = board
@@ -42,8 +44,10 @@ def minmax(gametree, marker):
         subtree_values.append(sub_value)
 
     if maximize:
+        gametree.value = np.max(subtree_values)
         return np.max(subtree_values), gametree.subtrees[np.argmax(subtree_values)].played_square
     else:
+        gametree.value = np.min(subtree_values)
         return np.min(subtree_values), gametree.subtrees[np.argmin(subtree_values)].played_square
 
 
@@ -134,6 +138,7 @@ def winner_old(board, square):
         if cat == 9:
             return 2
     return False
+
 
 def winner(board):
 

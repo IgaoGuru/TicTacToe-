@@ -33,6 +33,8 @@ if play_first == "n":
 ai.play_first = play_first
 ai.prepare()
 
+ai.tree_export()
+
 win = 0
 
 while win == 0:
