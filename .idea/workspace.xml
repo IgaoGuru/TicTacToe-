@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/AI.py" line="497" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="9a038075-6b2f-48b8-bfbe-a7b16f75b3b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/neuralnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nntraining.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AI.py" beforeDir="false" afterPath="$PROJECT_DIR$/AI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maxthemin.py" beforeDir="false" afterPath="$PROJECT_DIR$/maxthemin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trash.py" beforeDir="false" afterPath="$PROJECT_DIR$/trash.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neuralnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/neuralnet.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,36 +17,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10">
-              <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-              <folding>
-                <element signature="e#19#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/neuralnet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+            <state relative-caret-position="570">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
-                <element signature="e#214#548#0" />
-                <element signature="e#611#1413#0" />
+                <element signature="e#108#281#0" />
+                <element signature="e#322#824#0" />
+                <element signature="e#868#1760#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nntraining.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tree_exported.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="45" selection-start-column="45" selection-end-column="45" />
+            <state relative-caret-position="540">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -60,11 +57,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="4" selection-start-column="4" selection-end-column="4" />
-              <folding>
-                <element signature="e#34#250#0" />
-                <element signature="e#304#787#0" />
-                <element signature="e#824#2825#0" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -72,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AIvsAI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="575">
+              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
                 <element signature="e#938#1320#0" />
@@ -85,11 +77,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="490" column="3" selection-start-line="490" selection-start-column="3" selection-end-line="490" selection-end-column="3" />
+            <state relative-caret-position="240">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
               <folding>
                 <element signature="e#60#340#0" />
                 <element signature="e#329#340#0" />
+                <element signature="e#378#710#0" />
+                <element signature="e#595#710#0" />
+                <element signature="e#746#23281#0" />
+                <element signature="e#23120#23281#0" />
               </folding>
             </state>
           </provider>
@@ -98,19 +94,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/maxthemin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="270">
               <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#197#258#0" />
-                <element signature="e#295#452#0" />
-                <element signature="e#1234#1358#0" />
-                <element signature="e#1405#1878#0" />
-                <element signature="e#1936#2089#0" />
-                <element signature="e#2127#4542#0" />
-                <element signature="e#4569#5222#0" />
-                <element signature="e#5256#5321#0" />
-                <element signature="e#5367#5509#0" />
               </folding>
             </state>
           </provider>
@@ -119,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/small tictactoe.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-330">
+            <state relative-caret-position="660">
               <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
               <folding>
                 <element signature="e#43#425#0" />
@@ -202,12 +189,13 @@
         <option value="$PROJECT_DIR$/small tictactoe.py" />
         <option value="$PROJECT_DIR$/universals.py" />
         <option value="$PROJECT_DIR$/AIvsAI.py" />
-        <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/trash.py" />
         <option value="$PROJECT_DIR$/maxthemin.py" />
+        <option value="$PROJECT_DIR$/tree_exported.txt" />
+        <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/AI.py" />
         <option value="$PROJECT_DIR$/neuralnet.py" />
-        <option value="$PROJECT_DIR$/tree_exported.txt" />
+        <option value="$PROJECT_DIR$/nntraining.py" />
       </list>
     </option>
   </component>
@@ -217,12 +205,14 @@
     <option name="width" value="1400" />
     <option name="height" value="970" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,6 +224,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.neuralnet">
+  <component name="RunManager" selected="Python.nntraining">
     <configuration name="AIvsAI" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TicTacToe-" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -339,7 +330,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="small tictactoe" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="nntraining" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TicTacToe-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -351,7 +342,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/small tictactoe.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nntraining.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -383,11 +374,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.neuralnet" />
-        <item itemvalue="Python.Main" />
-        <item itemvalue="Python.trash" />
+        <item itemvalue="Python.nntraining" />
         <item itemvalue="Python.AIvsAI" />
-        <item itemvalue="Python.small tictactoe" />
+        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.neuralnet" />
+        <item itemvalue="Python.trash" />
       </list>
     </recent_temporary>
   </component>
@@ -542,10 +533,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trash.py">
+    <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="870">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+          <folding>
+            <element signature="e#19#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/universals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="e#60#340#0" />
+            <element signature="e#329#340#0" />
+            <element signature="e#378#710#0" />
+            <element signature="e#595#710#0" />
+            <element signature="e#746#23281#0" />
+            <element signature="e#23120#23281#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maxthemin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/small tictactoe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+          <folding>
+            <element signature="e#43#425#0" />
+            <element signature="e#464#587#0" />
+            <element signature="e#635#1182#0" />
+            <element signature="e#1240#1388#0" />
+            <element signature="e#1422#1487#0" />
+            <element signature="e#1513#1666#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -567,77 +608,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/small tictactoe.py">
+    <entry file="file://$PROJECT_DIR$/trash.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
-          <folding>
-            <element signature="e#43#425#0" />
-            <element signature="e#464#587#0" />
-            <element signature="e#635#1182#0" />
-            <element signature="e#1240#1388#0" />
-            <element signature="e#1422#1487#0" />
-            <element signature="e#1513#1666#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maxthemin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#197#258#0" />
-            <element signature="e#295#452#0" />
-            <element signature="e#1234#1358#0" />
-            <element signature="e#1405#1878#0" />
-            <element signature="e#1936#2089#0" />
-            <element signature="e#2127#4542#0" />
-            <element signature="e#4569#5222#0" />
-            <element signature="e#5256#5321#0" />
-            <element signature="e#5367#5509#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-          <folding>
-            <element signature="e#19#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="490" column="3" selection-start-line="490" selection-start-column="3" selection-end-line="490" selection-end-column="3" />
-          <folding>
-            <element signature="e#60#340#0" />
-            <element signature="e#329#340#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/universals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#34#250#0" />
-            <element signature="e#304#787#0" />
-            <element signature="e#824#2825#0" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AIvsAI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="575">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
             <element signature="e#938#1320#0" />
@@ -647,20 +628,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/neuralnet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+        <state relative-caret-position="570">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
-            <element signature="e#214#548#0" />
-            <element signature="e#611#1413#0" />
+            <element signature="e#108#281#0" />
+            <element signature="e#322#824#0" />
+            <element signature="e#868#1760#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tree_exported.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" selection-start-column="45" selection-end-column="45" />
+        <state relative-caret-position="540">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nntraining.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

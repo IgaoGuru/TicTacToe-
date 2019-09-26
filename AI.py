@@ -485,6 +485,7 @@ class AI_Bob_the_winner(AI):
                             choice = randint(0,8)
                         return choice
 
+
 class AI_Max_the_Min(AI):
     gametree = None
 
