@@ -1,4 +1,7 @@
-from time import gmtime
+import numpy as np
 
-print(gmtime()[5])
 
+
+matrix = np.zeros((100, 1, 1, 2, 4, 2, 6))
+
+print(matrix.shape)
