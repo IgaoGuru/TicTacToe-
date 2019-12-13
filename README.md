@@ -6,3 +6,5 @@ Currently implemented A.Is:
      - Jack the Random (random playing A.I)
      
      - Bob the Winner (expert A.I)
+     
+     - Max the Min (minimax algorithm)
